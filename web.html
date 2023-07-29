@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battlegrounds Mobile India</title>
+    <style>
+        /* *{
+            box-sizing: border-box;
+        } */
+        .container{
+            border: 2px solid black;
+            width: 1000px;
+            height: 480px;
+            padding: 20px;
+            margin: 20px;
+            margin-left: 80px;
+            background-color: blanchedalmond;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            box-shadow: 10px 10px 50px black;
+        }
+        .box{
+            border: 2px solid black;
+            width: 400px;
+            height: 400px;
+            margin: 40px;
+            padding: 20px;
+            background-color: aquamarine;
+            border-radius: 7px;
+            box-shadow: 10px 10px 50px black;
+
+        }
+        #box1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            
+        }
+        .text{
+            border: 3px solid black;
+            width: 350px;
+            height: 40px;
+            background-color: aliceblue;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            box-shadow: 5px 5px 50px black;
+        }
+        .text:hover{
+            border: 2px solid rgb(255, 230, 0);
+            background-color: blue;
+            color: aliceblue;
+            
+        }
+
+        #box2{
+            background-color: slategrey;
+            transition: all 1s linear ;
+
+        }
+        #box2:hover{
+            width: 600px;
+            border: 2px solid rgb(255, 230, 0);
+        }
+        #text3{
+            background-color: rgb(0, 3, 5);
+            width: 300px;
+            height: 100px;
+        }
+        @media(max-width:600px){
+            .container{
+            border: 2px solid black;
+            width: 1000px;
+            height: 480px;
+            padding: 20px;
+            margin: 20px;
+            margin-left: 80px;
+            background-color: blanchedalmond;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            box-shadow: 10px 10px 50px black;
+        }
+      
+        }
+
+    </style>
+
+    
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <div class="text" id="text3">
+                <img src="https://wallpaperaccess.in/public/uploads/preview/battlegrounds-mobile-india-bgmi-logo-white-m.png" alt="BGMI" width="300px">
+            </div>
+            <div class="text" id="text1">
+                <p align="center"><a href="https://play.google.com/store/apps/details?id=com.pubg.imobile">Download With Google Play Store</a></p>
+            </div>
+            <div class="text" id="text2">
+                <p align="center">Download With App Store</p>
+            </div>
+            
+            
+        </div>
+        <div class="box" id="box2">
+            <img src="https://i.gadgets360cdn.com/products/large/bgmi-512x512-1641551242.jpg" alt="BattleGrounds Mobile India"
+            width="400px">
+        </div>
+    </div>
+</body>
+</html>

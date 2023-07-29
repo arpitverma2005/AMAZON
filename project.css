@@ -1,0 +1,69 @@
+*{
+    /* font-family: Arial; */
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(76, 124, 255);
+}
+.mainimg{
+    width: 60%;
+    height: 60%;
+    background-color: rgb(221, 0, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mainimg:hover{
+    box-shadow: 20px 20px 100px black;
+}
+.leftsec{
+    background-color: rgb(212, 0, 240);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rightsec{
+    background-image: url(Nature.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+.bottomtext{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.uppertext{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-bottom: 75px;
+}
+.middletext{
+    color: rgb(255, 255, 255);
+    font-size: 0.95rem;
+    padding-left: 55px;
+    padding-bottom: 75px;
+    padding-right: 45px;
+}
+.para1{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.para2{
+    color: rgb(255, 255, 255);
+    font-size: 0.95rem;
+}
